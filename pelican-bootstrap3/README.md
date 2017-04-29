@@ -257,6 +257,17 @@ Other sidebar related options include:
 * To remove the sidebar entirely, set `HIDE_SIDEBAR` to _True_.
 * To move the sidebar to the left, set `SIDEBAR_ON_LEFT` to _True_.
 * To turn off inlined icons in the titles set `DISABLE_SIDEBAR_TITLE_ICONS` to
+  _True_.
+
+### Clean Blog Content Style
+
+The main body of the pages will be generated centered and with padding on the
+sides when `CLEAN_BLOG_CONTENT_STYLE` is set to `True`.  This is similar to the
+[Clean Blog](https://startbootstrap.com/template-overviews/clean-blog/) layout.
+
+The values in `HIDE_SIDEBAR`, `ABOUT_ME`, and ` AVATAR` are ignored when
+`CLEAN_BLOG_CONTENT_STYLE` is set to `True`.  This means that none of the
+sidebar content will be rendered.
 
 ### reStructuredText styles
 
